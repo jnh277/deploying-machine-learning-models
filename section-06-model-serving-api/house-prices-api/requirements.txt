@@ -5,6 +5,8 @@ pydantic>=1.8.1,<1.10.0
 typing_extensions>=3.7.4,<4.0.0
 loguru>=0.5.3,<0.6.0
 # We will explain this in the course
--e git+ssh://git@github.com:jnh277/deploying-machine-learning-models.git/#egg=pkg&subdirectory=section-05-production-model-package
-#tid-regression-model==3.1.2
-#-e ../../section-05-production-model-package/
+#-e git+ssh://git@github.com:jnh277/deploying-machine-learning-models.git/#egg=pkg&subdirectory=section-05-production-model-package
+#-e git+https://github.com/jnh277/deploying-machine-learning-models.git@master#egg=tid-regression-model&subdirectory=section-05-production-model-package
+# tid-regression-model==3.1.2
+#-e ./../../section-05-production-model-package/
+-e ./section-05-production-model-package/
