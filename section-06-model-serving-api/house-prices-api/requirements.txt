@@ -9,4 +9,4 @@ loguru>=0.5.3,<0.6.0
 #-e git+https://github.com/jnh277/deploying-machine-learning-models.git@master#egg=tid-regression-model&subdirectory=section-05-production-model-package
 # tid-regression-model==3.1.2
 #-e ./../../section-05-production-model-package/
--e ./section-05-production-model-package/
+-e ../section-05-production-model-package/
